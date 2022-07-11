@@ -44,7 +44,7 @@ The main commands are summarized in "train.sh". One can use them accordingly.
 mpirun -np 8 -H host1:4,host2:4 \
     -bind-to none -map-by slot \
     -x NCCL_DEBUG=INFO -x LD_LIBRARY_PATH -x PATH \
-    python train_ofa_stere.py \
+    python train_ofa_stereo.py \
            --task large
 ```
 ### Shrink the kernel size/depth/width/scale.
@@ -54,7 +54,7 @@ export TASK=kernel  # 'kernel', 'depth', 'width', 'scale'
 mpirun -np 8 -H host1:4,host2:4 \
     -bind-to none -map-by slot \
     -x NCCL_DEBUG=INFO -x LD_LIBRARY_PATH -x PATH \
-    python train_ofa_stere.py \
+    python train_ofa_stereo.py \
            --task $TASK
 ```
 
@@ -65,7 +65,7 @@ export TASK=kitti12  # 'kitti12', 'kitti2015'
 mpirun -np 8 -H host1:4,host2:4 \
     -bind-to none -map-by slot \
     -x NCCL_DEBUG=INFO -x LD_LIBRARY_PATH -x PATH \
-    python train_ofa_stere.py \
+    python train_ofa_stereo.py \
            --task $TASK
 ```
 
