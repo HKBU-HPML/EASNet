@@ -14,8 +14,6 @@ PyTorch implementation of searching an efficient network architecture for stereo
 }
 ```
 
-## TL;DR quickstart
-
 ## Setup
 
 Python 3 dependencies:
