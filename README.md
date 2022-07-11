@@ -27,7 +27,7 @@ Python 3 dependencies:
 * imageio
 * other necessary packages
 
-We use the deformation module from AANet. Install the ``deform_conv'' package as follow.
+We use the deformation module from AANet. Install the "deform_conv" package as follow.
 ```
 cd ofa/stereo_matching/networks/deform_conv
 sh build.sh
@@ -36,7 +36,7 @@ sh build.sh
 Our training scripts apply MPI to accelerate the training procedure. Please install OpenMPI 4.0.1 or above. 
 
 ## Searching EASNet
-The main commands are summarized in ``train.sh''. One can use them accordingly. 
+The main commands are summarized in "train.sh". One can use them accordingly. 
 
 ### Train the largest supernet.
 ```
