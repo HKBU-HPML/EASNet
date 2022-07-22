@@ -10,7 +10,7 @@ PyTorch implementation of searching an efficient network architecture for stereo
   author={Qiang Wang and Shaohuai Shi and Kaiyong Zhao and Xiaowen Chu},
   booktitle={European Conference on Computer Vision},
   year={2022},
-  url={[https://arxiv.org/pdf/xxxx.xxxxx.pdf](https://arxiv.org/abs/2207.09796)}
+  url={https://arxiv.org/abs/2207.09796}
 }
 ```
 
